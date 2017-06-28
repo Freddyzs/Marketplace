@@ -1,0 +1,28 @@
+.container, .container-fluid{
+	border: 1px solid red;
+}
+
+.row{
+	border: 1px solid blue;
+}
+
+[class*="col-xs"] {
+	border: 1px solid green;
+}
+
+.contactanos{
+	color: gray;
+	font-size: 12px;
+	display: block;
+	margin: 15px 0;
+}
+
+.top-right{
+	font-size: 12px;
+	display: block;
+	margin: 15px 0;
+}
+
+.logo{
+	size: 10px;
+}
