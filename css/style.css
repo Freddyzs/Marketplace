@@ -26,3 +26,10 @@
 .logo{
 	size: 10px;
 }
+
+.options{
+	display: inline-block;
+	padding: 15px;
+	font-size: 12px;
+	border-left: 2px solid #eaeaea;
+}
