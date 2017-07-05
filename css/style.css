@@ -1,30 +1,17 @@
-.container, .container-fluid{
-	border: 1px solid red;
-}
-
-.row{
-	border: 1px solid blue;
-}
-
-[class*="col-xs"] {
-	border: 1px solid green;
-}
 
 .contactanos{
-	color: gray;
+	color: white;
 	font-size: 12px;
 	display: block;
 	margin: 15px 0;
 }
-
 .top-right{
-	font-size: 12px;
-	display: block;
-	margin: 15px 0;
+	text-align: right;
+	font: white;
 }
 
 .logo{
-	size: 10px;
+	width: 100px;
 }
 
 .options{
@@ -33,3 +20,23 @@
 	font-size: 12px;
 	border-left: 2px solid #eaeaea;
 }
+
+.top-nav{
+	margin-top: 15x;
+	text-align: right;
+}
+
+.top-nav>span{
+	font-size: 20px;
+    padding: 30px 20px;
+    display: inline-block;
+    color: white;
+    background: #08AB89;
+    margin: 0px -1px;
+}
+
+.top-container{
+	background: gray;
+}
+
+
