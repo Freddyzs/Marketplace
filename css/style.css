@@ -11,14 +11,14 @@
 }
 
 .logo{
-	width: 100px;
+	height: 88px;
 }
 
 .options{
 	display: inline-block;
 	padding: 15px;
 	font-size: 12px;
-	border-left: 2px solid #eaeaea;
+	color: white;
 }
 
 .top-nav{
@@ -26,17 +26,51 @@
 	text-align: right;
 }
 
-.top-nav>span{
+.top-nav>a{
 	font-size: 20px;
     padding: 30px 20px;
     display: inline-block;
-    color: white;
-    background: #08AB89;
+    color: gray;
+    background: white;
     margin: 0px -1px;
 }
 
-.top-container{
-	background: gray;
+.top-nav>a:hover, .top-nav>.active{
+	text-decoration: none;
+	color: white !important;
+	background-color: #08AB89 !important;
 }
 
+.top-container{
+	background: #474D5D;
+}
 
+.carousel-inner img{
+	height: 400px !important ;
+	width: 100% !important;
+}
+
+.container2{
+	border-top: 2px solid #62d4d8;
+
+}
+
+.titulos4{
+	text-align: center;
+}
+
+.bottomcontainer{
+	background-color: #303745;
+}
+
+.footer{
+	display: inline-block;
+}
+.copywrite{
+	color: white;
+}
+
+.iconos{
+	color: gray;
+	align-content: right;
+}
