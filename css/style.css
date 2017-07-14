@@ -73,6 +73,13 @@
 .redessociales{
 	color: gray;
 	align-content: right;
+	display: inline-block;
+    width: 30px;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    text-align: right;
 }
 
 .col-xs-4{
@@ -95,12 +102,22 @@
     border-bottom: 6px solid #08ab89;
     margin-bottom: -1px;
     font-size: 130%;
-}
-
-.colizquierdaportafolio{
-	display: block;
+    text-align: left !important;
 }
 
 .paisaje{
-	width: 100%;
+	width: 80%;
+	align-content: left;
 }
+
+.izquierda{
+	text-align: left;
+}
+
+.botonleer{
+	background-color: #08AB89;
+	padding: 8px;
+	color: white;
+	text-align: right;
+}
+
