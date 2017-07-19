@@ -1,4 +1,8 @@
 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
 .contactanos{
 	color: white;
 	font-size: 12px;
@@ -35,7 +39,7 @@
     margin: 0px -1px;
 }
 
-.top-nav>a:hover, .top-nav>.active{
+.top-nav>a:hover, .top-nav>.active, .top-nav>a:focus{
 	text-decoration: none;
 	color: white !important;
 	background-color: #08AB89 !important;
@@ -86,14 +90,45 @@
 	padding: 40px 40px;
 }
 
+.col-xs-12{
+	padding: 0px;
+}
+
 .iconos{
 	    font-size: 35x;
 }
 
 .fondoredondo{
 	border-radius: 50%;
-	background-color: #474e5d;
-	font-size: 400%
+    background-color: #474e5d;
+    color: white;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+    margin-top: 11px;
+}
+
+.fondoredondo2{
+	border-radius: 50%;
+    background-color: #474e5d;
+    color: white;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    padding-top: 4px;
+    padding-left: 14px;
+    margin-top: 50px;
+}
+
+.hovericonos>span:hover{
+	text-decoration: none;
+	color: white !important;
+	background-color: #08AB89 !important;
 }
 
 .portfolio{
@@ -103,6 +138,10 @@
     margin-bottom: -1px;
     font-size: 130%;
     text-align: left !important;
+}
+
+.colportafolio{
+	text-align: left;
 }
 
 .paisaje{
@@ -121,3 +160,11 @@
 	text-align: right;
 }
 
+.carrusel{
+	padding: : 0px 0px;
+}
+
+.bajoportafolio{
+	text-align: right;
+	display: inline-block;
+}
